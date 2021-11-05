@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Live Weather React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is made in reactjs with OpenWeatherMap and generate an API key and set that key as an envoronment variable in this project.
 
-## Available Scripts
+This is a sample repo for weather-app in reactJs created by [Mukul Saini](https://github.com/thisismemukul). It is for beginners looking to get started quickly on a new weather app project using the React Js.
 
-In the project directory, you can run:
+<p align="center">
+<img src="https://github.com/thisismemukul/weather-app/blob/main/public/img/demo.gif" alt="weather-app showcase gif" title="weather-app showcase gif" width="500"/>
+</p>
+<h3> Website Link 🔗: https://thisismemukul.github.io/weather-app/</h3>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Installation Guide](#installation-guide) - How to get started with Weather App
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# <a name='installation-guide'>Installation Guide</a>
 
-### `npm test`
+This project requires the following tools:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [NPM](https://www.npmjs.com/) - A Node.js package manager used to install dependencies.
+- [API](https://home.openweathermap.org/) - An Open Source APIs for weather info.
 
-### `npm run build`
+To get started, install NPM and NodeJS on your local computer if you don't have them already.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Step 1. Clone the code into a fresh folder**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+$ git clone https://github.com/thisismemukul/weather-app.git
+$ cd API-s
+```
 
-### `npm run eject`
+**Step 2. Install Dependencies.**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Next, we need to install the project dependencies, which are listed in `package.json`.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+$ npm init
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**Step 3. Install Package.**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Next, we need to install the request package, which is listed in `package.json`.
 
-## Learn More
+```
+$ npm install 
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Step 4. Start the Application by using following command**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+$ npm start 
+```
 
-### Code Splitting
+# License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The Hackathon Starter Kit is open source software [licensed as MIT][mlh-license].
 
-### Analyzing the Bundle Size
+[mlh-license]: https://github.com/thisismemukul/API-s/blob/main/LICENSE.md
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+============================================================================
 
-### Making a Progressive Web App
+## I'm a Web Developer, Graphic Designer, and Student!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Let's Connect on [Linkedin][linkedin] 👋
 
-### Advanced Configuration
+- ⚡ My Portfolio 👇<br>
+----> <a href="https://www.thisismemukul.ml/" target="_blank">Thisismemukul</a> (My Portfolio) <br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Connect with me:
 
-### Deployment
+[<img align="left" alt="Mukul Saini | Telegram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg" />][telegram]
+[<img align="left" alt="Mukul Saini | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+[<img align="left" alt="Mukul Saini | Whatsapp" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/whatsapp.svg" />][whatsapp]
+[<img align="left" alt="Mukul Saini | Linkedin" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<br />
 
-### `npm run build` fails to minify
+### Languages and Tools:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
+<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
+<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+<img align="left" alt="Sass" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />
+<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
+<img align="left" alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
+<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
+<br />
+<br />
+
+<p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thisismemukul&layout=compact" alt="thisismemukul" /></p>
+
+<br />
+
+<p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thisismemukul&theme=white-blue" alt="thisismemukul" /></p>
+
+<br />
+
+<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=thisismemukul&show_icons=true" alt="thisismemukul" /></p>
+
+
+---
+
+[instagram]: https://instagram.com/thisismemukul
+[telegram]: https://ttttt.me/thisismemukul
+[whatsapp]: https://wa.me/918769506494
+[linkedin]: https://www.linkedin.com/in/thisisme-mukulsaini
