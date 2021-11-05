@@ -27,7 +27,7 @@ To get started, install NPM and NodeJS on your local computer if you don't have 
 
 ```
 $ git clone https://github.com/thisismemukul/weather-app.git
-$ cd API-s
+$ cd weather-app
 ```
 
 **Step 2. Install Dependencies.**
